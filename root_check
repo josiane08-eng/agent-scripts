@@ -1,0 +1,7 @@
+#!/bin/bash
+
+if [ {UID} -NE 0]
+THEN
+ECHO " YOU NEDD ROOT ACCESS"
+exit
+fi
